@@ -23,6 +23,14 @@ public class Movement : MonoBehaviour {
 
 		Vector3 velocity = new Vector3 (xSpeed, 0f, zSpeed).normalized * speed;
 
+		bool isWalking;
+		if (velocity.magnitude > 0) {
+			isWalking = true;
+		} else {
+			isWalking = false;
+		}
+		GetComponent<Animator> ().SetBool ("isWalking", isWalking);
+
 		transform.position += velocity;
 	}
 

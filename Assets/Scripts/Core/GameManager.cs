@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Game : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    private int HP = 1;
+    private int HP = 100;
     // Use this for initialization
     void Start()
     {
@@ -34,7 +34,7 @@ public class Game : MonoBehaviour
     {
         while (HP != 0)
         {
-            Debug.Log("running");
+            //Debug.Log("running");
             yield return null;
         }
         yield return null;

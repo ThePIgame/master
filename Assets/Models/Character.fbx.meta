@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 619866220259ea746a07acf647b03c47
+timeCreated: 1459800370
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BASE.001
+    100004: Body
+    100006: Bot Arm Left
+    100008: Bot Arm Right
+    100010: Bot Foot Left
+    100012: Bot Foot Left_end
+    100014: Bot Foot Right
+    100016: Bot Foot Right_end
+    100018: Bot Leg Left
+    100020: Bot Leg Left_end
+    100022: Bot Leg Right
+    100024: Bot Leg Right_end
+    100026: Camera
+    100028: Cube
+    100030: Cube.001
+    100032: Cube.002
+    100034: Head
+    100036: Head_end
+    100038: Lamp
+    100040: Left arm control
+    100042: Left arm control.001
+    100044: Left arm control.002
+    100046: Left arm control.003
+    100048: Left arm control.003_end
+    100050: Left arm control.004
+    100052: Left arm control.004_end
+    100054: Left arm control_end
+    100056: Left Leg Control
+    100058: Lowbody
+    100060: //RootNode
+    100062: Neck
+    100064: Right arm control
+    100066: Right arm control.001
+    100068: Right arm control.002
+    100070: Right arm control.003
+    100072: Right arm control.003_end
+    100074: Right arm control.004
+    100076: Right arm control.004_end
+    100078: Right arm control_end
+    100080: Right Leg Control
+    100082: Sphere
+    100084: Target1L
+    100086: Target1L.002
+    100088: Target1L.002_end
+    100090: Target1L_end
+    100092: Target2L
+    100094: Target2L.002
+    100096: Target2L.002_end
+    100098: Target2L_end
+    100100: Top arm Left
+    100102: Top arm Right
+    100104: Up Foot Left
+    100106: Up Foot Right
+    100108: Up Leg Left
+    100110: Up Leg Right
+    400000: Armature
+    400002: BASE.001
+    400004: Body
+    400006: Bot Arm Left
+    400008: Bot Arm Right
+    400010: Bot Foot Left
+    400012: Bot Foot Left_end
+    400014: Bot Foot Right
+    400016: Bot Foot Right_end
+    400018: Bot Leg Left
+    400020: Bot Leg Left_end
+    400022: Bot Leg Right
+    400024: Bot Leg Right_end
+    400026: Camera
+    400028: Cube
+    400030: Cube.001
+    400032: Cube.002
+    400034: Head
+    400036: Head_end
+    400038: Lamp
+    400040: Left arm control
+    400042: Left arm control.001
+    400044: Left arm control.002
+    400046: Left arm control.003
+    400048: Left arm control.003_end
+    400050: Left arm control.004
+    400052: Left arm control.004_end
+    400054: Left arm control_end
+    400056: Left Leg Control
+    400058: Lowbody
+    400060: //RootNode
+    400062: Neck
+    400064: Right arm control
+    400066: Right arm control.001
+    400068: Right arm control.002
+    400070: Right arm control.003
+    400072: Right arm control.003_end
+    400074: Right arm control.004
+    400076: Right arm control.004_end
+    400078: Right arm control_end
+    400080: Right Leg Control
+    400082: Sphere
+    400084: Target1L
+    400086: Target1L.002
+    400088: Target1L.002_end
+    400090: Target1L_end
+    400092: Target2L
+    400094: Target2L.002
+    400096: Target2L.002_end
+    400098: Target2L_end
+    400100: Top arm Left
+    400102: Top arm Right
+    400104: Up Foot Left
+    400106: Up Foot Right
+    400108: Up Leg Left
+    400110: Up Leg Right
+    2300000: Cube
+    2300002: Cube.002
+    2300004: Sphere
+    3300000: Cube
+    3300002: Cube.002
+    3300004: Sphere
+    4300000: Cube.002
+    4300002: Sphere
+    4300004: Cube.001
+    4300006: Cube
+    7400000: Armature|Action
+    7400002: Armature|Action.001
+    7400004: Armature|IDLEWORKS
+    7400006: Armature|RUNCYCLEWORKS
+    7400008: Armature|Stand to run.000
+    7400010: Armature|Stand to run.001
+    7400012: Armature|WALKWORKS
+    7400014: Cube.001|Action
+    7400016: Cube.001|Action.001
+    7400018: Cube.001|Stand to run.000
+    7400020: Cube.001|Stand to run.001
+    9500000: //RootNode
+    13700000: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|IDLEWORKS
+      takeName: Armature|IDLEWORKS
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BASE.001
+        weight: 1
+      - path: Armature/BASE.001/Left arm control
+        weight: 1
+      - path: Armature/BASE.001/Left arm control/Left arm control_end
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left/Bot Foot Left
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left/Bot Foot Left/Bot Foot
+          Left_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck/Head
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002/Left arm control.003
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002/Left arm control.003/Left arm control.003_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.004
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.004/Left arm control.004_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002/Right arm control.003
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002/Right arm control.003/Right arm control.003_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.004
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.004/Right arm control.004_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left/Bot Leg Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left/Bot Leg Left/Bot Leg Left_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right/Bot Leg Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right/Bot Leg Right/Bot Leg Right_end
+        weight: 1
+      - path: Armature/BASE.001/Right arm control
+        weight: 1
+      - path: Armature/BASE.001/Right arm control/Right arm control_end
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right/Bot Foot Right
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right/Bot Foot Right/Bot
+          Foot Right_end
+        weight: 1
+      - path: Armature/BASE.001/Target1L
+        weight: 1
+      - path: Armature/BASE.001/Target1L/Target1L_end
+        weight: 1
+      - path: Armature/BASE.001/Target1L.002
+        weight: 1
+      - path: Armature/BASE.001/Target1L.002/Target1L.002_end
+        weight: 1
+      - path: Armature/BASE.001/Target2L
+        weight: 1
+      - path: Armature/BASE.001/Target2L/Target2L_end
+        weight: 1
+      - path: Armature/BASE.001/Target2L.002
+        weight: 1
+      - path: Armature/BASE.001/Target2L.002/Target2L.002_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RUNCYCLEWORKS
+      takeName: Armature|RUNCYCLEWORKS
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BASE.001
+        weight: 1
+      - path: Armature/BASE.001/Left arm control
+        weight: 1
+      - path: Armature/BASE.001/Left arm control/Left arm control_end
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left/Bot Foot Left
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left/Bot Foot Left/Bot Foot
+          Left_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck/Head
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002/Left arm control.003
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002/Left arm control.003/Left arm control.003_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.004
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.004/Left arm control.004_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002/Right arm control.003
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002/Right arm control.003/Right arm control.003_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.004
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.004/Right arm control.004_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left/Bot Leg Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left/Bot Leg Left/Bot Leg Left_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right/Bot Leg Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right/Bot Leg Right/Bot Leg Right_end
+        weight: 1
+      - path: Armature/BASE.001/Right arm control
+        weight: 1
+      - path: Armature/BASE.001/Right arm control/Right arm control_end
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right/Bot Foot Right
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right/Bot Foot Right/Bot
+          Foot Right_end
+        weight: 1
+      - path: Armature/BASE.001/Target1L
+        weight: 1
+      - path: Armature/BASE.001/Target1L/Target1L_end
+        weight: 1
+      - path: Armature/BASE.001/Target1L.002
+        weight: 1
+      - path: Armature/BASE.001/Target1L.002/Target1L.002_end
+        weight: 1
+      - path: Armature/BASE.001/Target2L
+        weight: 1
+      - path: Armature/BASE.001/Target2L/Target2L_end
+        weight: 1
+      - path: Armature/BASE.001/Target2L.002
+        weight: 1
+      - path: Armature/BASE.001/Target2L.002/Target2L.002_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WALKWORKS
+      takeName: Armature|WALKWORKS
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BASE.001
+        weight: 1
+      - path: Armature/BASE.001/Left arm control
+        weight: 1
+      - path: Armature/BASE.001/Left arm control/Left arm control_end
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left/Bot Foot Left
+        weight: 1
+      - path: Armature/BASE.001/Left Leg Control/Up Foot Left/Bot Foot Left/Bot Foot
+          Left_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck/Head
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002/Left arm control.003
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.002/Left arm control.003/Left arm control.003_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.004
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Left/Bot Arm Left/Left arm control.001/Left
+          arm control.004/Left arm control.004_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002/Right arm control.003
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.002/Right arm control.003/Right arm control.003_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.004
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Body/Top arm Right/Bot Arm Right/Right arm
+          control.001/Right arm control.004/Right arm control.004_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left/Bot Leg Left
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Left/Bot Leg Left/Bot Leg Left_end
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right/Bot Leg Right
+        weight: 1
+      - path: Armature/BASE.001/Lowbody/Up Leg Right/Bot Leg Right/Bot Leg Right_end
+        weight: 1
+      - path: Armature/BASE.001/Right arm control
+        weight: 1
+      - path: Armature/BASE.001/Right arm control/Right arm control_end
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right/Bot Foot Right
+        weight: 1
+      - path: Armature/BASE.001/Right Leg Control/Up Foot Right/Bot Foot Right/Bot
+          Foot Right_end
+        weight: 1
+      - path: Armature/BASE.001/Target1L
+        weight: 1
+      - path: Armature/BASE.001/Target1L/Target1L_end
+        weight: 1
+      - path: Armature/BASE.001/Target1L.002
+        weight: 1
+      - path: Armature/BASE.001/Target1L.002/Target1L.002_end
+        weight: 1
+      - path: Armature/BASE.001/Target2L
+        weight: 1
+      - path: Armature/BASE.001/Target2L/Target2L_end
+        weight: 1
+      - path: Armature/BASE.001/Target2L.002
+        weight: 1
+      - path: Armature/BASE.001/Target2L.002/Target2L.002_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
