@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 8b0d204aedd8c9c469363c811bb132fe
+timeCreated: 1459788343
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BASE_001
+    100004: Body
+    100006: Bot_Arm_Left
+    100008: Bot_Arm_Right
+    100010: Bot_Foot_Left
+    100012: Bot_Foot_Right
+    100014: Bot_Leg_Left
+    100016: Bot_Leg_Right
+    100018: Cube
+    100020: Cube_001
+    100022: Cube_002
+    100024: Head
+    100026: Left_arm_control
+    100028: Left_arm_control_001
+    100030: Left_arm_control_002
+    100032: Left_arm_control_003
+    100034: Left_arm_control_004
+    100036: Left_Leg_Control
+    100038: Lowbody
+    100040: //RootNode
+    100042: Neck
+    100044: Right_arm_control
+    100046: Right_arm_control_001
+    100048: Right_arm_control_002
+    100050: Right_arm_control_003
+    100052: Right_arm_control_004
+    100054: Right_Leg_Control
+    100056: Sphere
+    100058: Target1L
+    100060: Target1L_002
+    100062: Target2L
+    100064: Target2L_002
+    100066: Top_arm_Left
+    100068: Top_arm_Right
+    100070: Up_Foot_Left
+    100072: Up_Foot_Right
+    100074: Up_Leg_Left
+    100076: Up_Leg_Right
+    400000: Armature
+    400002: BASE_001
+    400004: Body
+    400006: Bot_Arm_Left
+    400008: Bot_Arm_Right
+    400010: Bot_Foot_Left
+    400012: Bot_Foot_Right
+    400014: Bot_Leg_Left
+    400016: Bot_Leg_Right
+    400018: Cube
+    400020: Cube_001
+    400022: Cube_002
+    400024: Head
+    400026: Left_arm_control
+    400028: Left_arm_control_001
+    400030: Left_arm_control_002
+    400032: Left_arm_control_003
+    400034: Left_arm_control_004
+    400036: Left_Leg_Control
+    400038: Lowbody
+    400040: //RootNode
+    400042: Neck
+    400044: Right_arm_control
+    400046: Right_arm_control_001
+    400048: Right_arm_control_002
+    400050: Right_arm_control_003
+    400052: Right_arm_control_004
+    400054: Right_Leg_Control
+    400056: Sphere
+    400058: Target1L
+    400060: Target1L_002
+    400062: Target2L
+    400064: Target2L_002
+    400066: Top_arm_Left
+    400068: Top_arm_Right
+    400070: Up_Foot_Left
+    400072: Up_Foot_Right
+    400074: Up_Leg_Left
+    400076: Up_Leg_Right
+    2300000: Cube
+    2300002: Cube_002
+    2300004: Sphere
+    3300000: Cube
+    3300002: Cube_002
+    3300004: Sphere
+    4300000: Cube_002
+    4300002: Sphere
+    4300004: Cube_001
+    4300006: Cube
+    7400000: Default Take
+    7400002: Action_002
+    7400004: Action_003
+    7400006: Run
+    7400008: Run_Cycle_Use_This
+    7400010: Run_Cycle_001
+    7400012: Stand_to_run
+    7400014: Stand_to_run_001
+    7400016: Untitled
+    7400018: Walk_Use_This
+    7400020: Walk_Use_This_001
+    9500000: //RootNode
+    13700000: Cube_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
