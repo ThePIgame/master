@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Movement : MonoBehaviour { 
-
+public class Movement : MonoBehaviour {
+	
     //private Rigidbody rb;
+	private CharacterController controller;
+	private Animator animator;
 
     private float horizontal;
     private float vertical;
@@ -15,22 +17,29 @@ public class Movement : MonoBehaviour {
 
     private Vector3 moveDirection = Vector3.zero;
 
-	private bool isWalking = false;
-
     void Awake()
     {
         //rb = GetComponent<Rigidbody>();
+		controller = GetComponent<CharacterController> ();
+		animator = GetComponent<Animator> ();
     }
 
 
-    void Update()
+	void Update()
 	{
-		CharacterController controller = GetComponent<CharacterController> ();
-
 		if (controller.isGrounded) {
-			moveDirection = new Vector3 (Input.GetAxis ("Horizontal"), 0, Input.GetAxis ("Vertical"));
+			horizontal = Input.GetAxis ("Horizontal");
+			vertical = Input.GetAxis ("Vertical");
+
+			moveDirection = new Vector3 (horizontal, 0, vertical);
 			moveDirection = transform.TransformDirection (moveDirection);
 			moveDirection = moveDirection.normalized * speed;
+
+			if (moveDirection.magnitude > 0) {
+				animator.SetBool ("isWalking", true);
+			} else {
+				animator.SetBool ("isWalking", false);
+			}
 
 			if (Input.GetButton ("Jump")) {
 				moveDirection.y = jumpSpeed;
@@ -40,9 +49,6 @@ public class Movement : MonoBehaviour {
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move (moveDirection * Time.deltaTime);
 
-		isWalking = controller.velocity.magnitude > 0;
-		GetComponent<Animator> ().SetBool ("isWalking", isWalking);
-
-    }
+	}
 
 }
