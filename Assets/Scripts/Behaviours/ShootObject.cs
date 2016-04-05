@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ShootObject : MonoBehaviour {
-
+	
 	public GameObject projectile;
 	public float bulletSpeed = 1f;
 
@@ -18,6 +18,7 @@ public class ShootObject : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetMouseButton (0)) {
+			
 			if (!reloading) {
 				if (curNumBullets > 0) {
 					float timePassed = Time.time - lastShootTime;
@@ -34,6 +35,7 @@ public class ShootObject : MonoBehaviour {
 					reloadTimeCounter = Time.time;
 				}
 			}
+
 		}
 
 		if (reloading) {
