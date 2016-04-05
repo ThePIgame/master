@@ -6,8 +6,13 @@ public class FollowObject : MonoBehaviour {
 	public GameObject objectToFollow;
 	public Vector3 offset;
 
+	public float speed = 1f;
+
 	void Update () {
-		transform.position = objectToFollow.transform.position + offset;
+		Vector3 curPos = transform.position;
+		Vector3 nextPos = objectToFollow.transform.position + offset;
+
+		transform.position = Vector3.Lerp (curPos, nextPos, speed);
 	}
 
 }

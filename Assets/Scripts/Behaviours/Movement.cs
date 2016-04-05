@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour {
 			vertical = Input.GetAxis ("Vertical");
 
 			moveDirection = new Vector3 (horizontal, 0, vertical);
-			moveDirection = transform.TransformDirection (moveDirection);
+			//moveDirection = transform.TransformDirection (moveDirection);
 			moveDirection = moveDirection.normalized * speed;
 
 			if (moveDirection.magnitude > 0) {

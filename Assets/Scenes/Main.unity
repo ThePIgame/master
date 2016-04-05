@@ -514,6 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToFollow: {fileID: 1254969887}
   offset: {x: 0, y: 40, z: 0}
+  speed: 0.05
 --- !u!1 &349696156
 GameObject:
   m_ObjectHideFlags: 0
