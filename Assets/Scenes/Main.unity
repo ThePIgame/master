@@ -328,6 +328,14 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: 356377e6f65d2e243b227f92438d370b, type: 3}
+    - target: {fileID: 11489196, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489196, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
+      propertyPath: jumpSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2385374, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
@@ -336,6 +344,38 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 151488, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
   m_PrefabInternal: {fileID: 1132243362}
+--- !u!54 &1254969892
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254969887}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!143 &1254969893
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254969887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.05
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 1e-20
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1462395451
 GameObject:
   m_ObjectHideFlags: 0
