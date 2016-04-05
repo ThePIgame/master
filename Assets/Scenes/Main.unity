@@ -185,36 +185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToFollow: {fileID: 1254969887}
   offset: {x: 0, y: 40, z: 0}
---- !u!1 &429128441 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 194510, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-  m_PrefabInternal: {fileID: 1132243362}
---- !u!23 &429128442
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 429128441}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 59431b52546bb3140bccfde48e1b058e, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
 --- !u!4 &685487077 stripped
 Transform:
   m_PrefabParentObject: {fileID: 467728, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
@@ -300,82 +270,25 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11489196, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 14373376, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
+      propertyPath: m_Center.y
+      value: 5.3
       objectReference: {fileID: 0}
-    - target: {fileID: 11401886, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 14373376, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
+      propertyPath: m_Radius
+      value: 1.41
       objectReference: {fileID: 0}
-    - target: {fileID: 11426454, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 14373376, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
+      propertyPath: m_Height
+      value: 10.61
       objectReference: {fileID: 0}
-    - target: {fileID: 9529820, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2385374, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3305436, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 4563b899ea81a854d8043768cf2651e6, type: 3}
-    - target: {fileID: 3362098, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 356377e6f65d2e243b227f92438d370b, type: 3}
-    - target: {fileID: 11489196, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: speed
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 11489196, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
-      propertyPath: jumpSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2385374, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1254969887 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 151488, guid: e9e9085e265f51b4fad09df59a0c4d15, type: 2}
   m_PrefabInternal: {fileID: 1132243362}
---- !u!54 &1254969892
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1254969887}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!143 &1254969893
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1254969887}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.05
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 1e-20
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1462395451
 GameObject:
   m_ObjectHideFlags: 0

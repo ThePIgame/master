@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 443912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target1L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23,7 +23,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 484872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 482038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 444964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 460116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Leg Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 471464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target2L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 480470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Leg Right_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 455330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target1L.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 485220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Up Leg Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 454220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Foot Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 489652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 470248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Up Foot Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 478004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - 4: {fileID: 466162}
   - 33: {fileID: 3319954}
   - 23: {fileID: 2373398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 477160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target1L.002_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 490004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target1L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 481790}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 426050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 416950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Leg Left_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 461144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,9 @@ GameObject:
   - 114: {fileID: 11426454}
   - 114: {fileID: 11401886}
   - 114: {fileID: 11489196}
-  m_Layer: 0
+  - 54: {fileID: 5403208}
+  - 143: {fileID: 14373376}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +331,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 481324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BASE.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +346,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 486114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Foot Right_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +361,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 440386}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +376,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 479000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control.004_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +393,7 @@ GameObject:
   - 4: {fileID: 405696}
   - 33: {fileID: 3362098}
   - 23: {fileID: 2353866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +408,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 465604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +423,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 440960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target2L.002_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +438,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 402236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Leg Control
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +453,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 434416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target2L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +468,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 462580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -481,7 +483,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,7 +498,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 490452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +513,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 434362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +529,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 415402}
   - 137: {fileID: 13701972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +544,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 420804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target2L.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -557,7 +559,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 456022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +574,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 481416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lowbody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +589,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 487882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control.004_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -602,7 +604,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 443048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +619,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 477382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Up Leg Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,7 +634,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 489052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +649,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 469286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Armature Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,7 +664,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 499640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +679,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 483766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left arm control.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,7 +694,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 499512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,7 +709,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 489248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Foot Left_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +724,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 441524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Leg Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +739,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 430668}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +754,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 423646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Leg Control
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,8 +770,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 469764}
   - 33: {fileID: 3305436}
-  - 23: {fileID: 2385374}
-  m_Layer: 0
+  - 23: {fileID: 2374688}
+  m_Layer: 8
   m_Name: Suit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +786,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 421510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bot Foot Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -799,7 +801,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 479810}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -814,7 +816,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 455624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right arm control.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +831,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 494634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Up Foot Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1604,7 +1606,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!23 &2385374
+--- !u!23 &2374688
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1636,7 +1638,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194510}
-  m_Mesh: {fileID: 4300006, guid: 619866220259ea746a07acf647b03c47, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 4563b899ea81a854d8043768cf2651e6, type: 3}
 --- !u!33 &3319954
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -1650,7 +1652,22 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157310}
-  m_Mesh: {fileID: 4300002, guid: 619866220259ea746a07acf647b03c47, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 356377e6f65d2e243b227f92438d370b, type: 3}
+--- !u!54 &5403208
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151488}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &9529820
 Animator:
   serializedVersion: 3
@@ -1674,7 +1691,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151488}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 764b7b0b1750d5243aa1c82e4e51fbd5, type: 3}
   m_Name: 
@@ -1685,7 +1702,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151488}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31ba5836b0f42f240996b149c1e9463a, type: 3}
   m_Name: 
@@ -1698,12 +1715,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151488}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01dea85dd4fea2245a3f9268a884d365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 10
+  jumpSpeed: 10
+  gravity: 20
 --- !u!137 &13701972
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1774,6 +1793,23 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.03692814, y: 0.0029633874, z: -0.0007234905}
     m_Extent: {x: 0.041058913, y: 0.00792184, z: 0.020225847}
   m_DirtyAABB: 0
+--- !u!143 &14373376
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.05
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 1e-20
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
