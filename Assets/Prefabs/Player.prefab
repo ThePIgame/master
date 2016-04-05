@@ -1709,7 +1709,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 169546, guid: f535d1c24e2a0b14198578e488df84dc, type: 2}
-  speed: 200
+  bulletSpeed: 200
+  shootTime: 0.2
+  numBullets: 12
+  reloadTime: 3
 --- !u!114 &11489196
 MonoBehaviour:
   m_ObjectHideFlags: 1
