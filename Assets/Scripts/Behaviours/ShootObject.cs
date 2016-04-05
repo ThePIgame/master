@@ -18,7 +18,6 @@ public class ShootObject : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetMouseButton (0)) {
-			
 			if (!reloading) {
 				if (curNumBullets > 0) {
 					float timePassed = Time.time - lastShootTime;
@@ -33,9 +32,10 @@ public class ShootObject : MonoBehaviour {
 				} else {
 					reloading = true;
 					reloadTimeCounter = Time.time;
+
+					Debug.Log ("Reloading...");
 				}
 			}
-
 		}
 
 		if (reloading) {
