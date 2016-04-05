@@ -28,8 +28,11 @@ public class ShootObject : MonoBehaviour {
 
 						lastShootTime = Time.time;
 						curNumBullets--;
+<<<<<<< HEAD
 
 						Debug.Log ("Ammo: " + curNumBullets + " / " + numBullets);
+=======
+>>>>>>> ea558f288e87de0d02805128712312d48a724ec4
 					}
 				} else {
 					reloading = true;
@@ -46,8 +49,11 @@ public class ShootObject : MonoBehaviour {
 			if (timePassed >= reloadTime) {
 				reloading = false;
 				curNumBullets = numBullets;
+<<<<<<< HEAD
 
 				Debug.Log ("Ammo: " + numBullets + " / " + numBullets);
+=======
+>>>>>>> ea558f288e87de0d02805128712312d48a724ec4
 			}
 		}
 	}
